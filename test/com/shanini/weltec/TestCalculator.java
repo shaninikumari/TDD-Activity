@@ -17,8 +17,8 @@ public class TestCalculator {
 
 	@Test
 	public  void testAdd() {
-		double total=5.0+4.0+6.0;
-		Assert.assertEquals(total, myCalculator.add(5.0,4.0,6.0), 0.0);
+		double total=5.0 + 4.0+6.0;
+		Assert.assertEquals( total, myCalculator.add(5.0,4.0,6.0), 0.0);
 	}
 	
 	@Test

@@ -6,7 +6,7 @@ public class Calculator implements Icalculator {
 	public double add(double... number) {
 		double total=0;
 		for(double num: number){
-			total+=num;
+			total += num;
 			
 		}
 		return total;
